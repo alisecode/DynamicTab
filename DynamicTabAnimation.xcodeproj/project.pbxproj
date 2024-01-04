@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		318EEBA12B43DA32007204A5 /* DynamicTabAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBA02B43DA32007204A5 /* DynamicTabAnimationApp.swift */; };
-		318EEBA32B43DA32007204A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBA22B43DA32007204A5 /* ContentView.swift */; };
 		318EEBA52B43DA35007204A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318EEBA42B43DA35007204A5 /* Assets.xcassets */; };
 		318EEBA82B43DA35007204A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318EEBA72B43DA35007204A5 /* Preview Assets.xcassets */; };
+		318EEBB42B43DD32007204A5 /* DynamicTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBB32B43DD32007204A5 /* DynamicTabView.swift */; };
+		318EEBB82B43DF5B007204A5 /* Tab+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBB72B43DF5B007204A5 /* Tab+Model.swift */; };
+		318EEBBA2B43EF27007204A5 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBB92B43EF27007204A5 /* Extension+View.swift */; };
+		318EEBBC2B43F2C0007204A5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318EEBBB2B43F2C0007204A5 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		318EEB9D2B43DA32007204A5 /* DynamicTabAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTabAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318EEBA02B43DA32007204A5 /* DynamicTabAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabAnimationApp.swift; sourceTree = "<group>"; };
-		318EEBA22B43DA32007204A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		318EEBA42B43DA35007204A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318EEBA72B43DA35007204A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318EEBB32B43DD32007204A5 /* DynamicTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabView.swift; sourceTree = "<group>"; };
+		318EEBB72B43DF5B007204A5 /* Tab+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+Model.swift"; sourceTree = "<group>"; };
+		318EEBB92B43EF27007204A5 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		318EEBBB2B43F2C0007204A5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		318EEB9F2B43DA32007204A5 /* DynamicTabAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				318EEBA02B43DA32007204A5 /* DynamicTabAnimationApp.swift */,
-				318EEBA22B43DA32007204A5 /* ContentView.swift */,
+				318EEBBF2B456F87007204A5 /* App */,
+				318EEBB32B43DD32007204A5 /* DynamicTabView.swift */,
+				318EEBBB2B43F2C0007204A5 /* Utils.swift */,
+				318EEBB72B43DF5B007204A5 /* Tab+Model.swift */,
+				318EEBB92B43EF27007204A5 /* Extension+View.swift */,
 				318EEBA42B43DA35007204A5 /* Assets.xcassets */,
 				318EEBA62B43DA35007204A5 /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				318EEBA72B43DA35007204A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		318EEBBF2B456F87007204A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				318EEBA02B43DA32007204A5 /* DynamicTabAnimationApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318EEBA32B43DA32007204A5 /* ContentView.swift in Sources */,
+				318EEBB42B43DD32007204A5 /* DynamicTabView.swift in Sources */,
+				318EEBB82B43DF5B007204A5 /* Tab+Model.swift in Sources */,
+				318EEBBC2B43F2C0007204A5 /* Utils.swift in Sources */,
+				318EEBBA2B43EF27007204A5 /* Extension+View.swift in Sources */,
 				318EEBA12B43DA32007204A5 /* DynamicTabAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
